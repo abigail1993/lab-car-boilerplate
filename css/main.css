@@ -45,14 +45,90 @@
 
 .contenedor4 {
   background-image: url(../assets/images/conduce.jpg);
-  background-position: center;
+  background-position: bottom;
   background-size: cover;
   height: 70vh;
+}
+
+.texto{
+  background-color:rgba(0,0,0,0.5);
+  height: 70vh;
+  padding: 15vh 0vh;
+
+
 
 }
 
- .opacity {
-   background-color: black;
-   opacity: 0.6;
-   height: 70vh;
+.white2{
+  color: white;
+  margin: 10px;
+}
+
+.amarillo2 {
+  background-color: #F7B617;
+  color: white;
+}
+
+.tarifa {
+  padding: 90px;
+
+}
+
+.seguido {
+  margin: 20px 0px;
+}
+
+.seguido img {
+  float: left;
+}
+
+.maps {
+  border: 1px solid white;
+  height:50vh;
+  width: 50vh;
+  margin:10vh auto;
+  padding: 1vh;
+}
+
+.footer {
+  background-color: #2B2B2B;
+  color: white;
+  padding: 50px 0px;
+
+}
+
+.border2 {
+  border-bottom: 1px solid white;
+}
+
+.border3 {
+  border-top: 1px solid white;
+}
+
+.list {
+  padding: 50px;
+}
+
+#icons {
+  text-align: center;
+  margin-top: 260px;
+
+}
+
+.store {
+  margin-top: 100px;
+
+}
+
+.appstore {
+  margin-top: 50px;
+
+}
+
+.footer2 {
+  margin-bottom: 20px;
+}
+
+.footer3 {
+  margin-top: 20px;
 }
