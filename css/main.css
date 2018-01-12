@@ -1,1 +1,17 @@
-/* Los estilos de tu proyecto */
+.imagen{
+  background-image: url(../assets/images/taxi.jpg);
+  background-position: bottom;
+  background-size: cover;
+  height: 120vh;
+
+}
+
+.amarillo {
+  background-color: #F7B617;
+  color: white;
+  margin: 200px 0px;
+}
+
+hr {
+  width: 25px;
+}
