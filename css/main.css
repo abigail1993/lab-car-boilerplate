@@ -3,7 +3,6 @@
   background-position: bottom;
   background-size: cover;
   height: 120vh;
-
 }
 
 .amarillo {
@@ -25,7 +24,6 @@
   background-color: #F7B617;
   background-size: cover;
   height: 100vh;
-
 }
 
 .border {
@@ -54,9 +52,6 @@
   background-color:rgba(0,0,0,0.5);
   height: 70vh;
   padding: 15vh 0vh;
-
-
-
 }
 
 .white2{
@@ -71,7 +66,6 @@
 
 .tarifa {
   padding: 90px;
-
 }
 
 .seguido {
@@ -94,7 +88,6 @@
   background-color: #2B2B2B;
   color: white;
   padding: 50px 0px;
-
 }
 
 .border2 {
@@ -112,17 +105,14 @@
 #icons {
   text-align: center;
   margin-top: 260px;
-
 }
 
 .store {
   margin-top: 100px;
-
 }
 
 .appstore {
   margin-top: 50px;
-
 }
 
 .footer2 {
