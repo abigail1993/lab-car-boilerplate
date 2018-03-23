@@ -1,16 +1,13 @@
 # Lab<ar
+---
 
-Se creo una página web usando el framework Bootstrap.
+Lab<ar es un proyecto de maquetación en el cual aprendí a utilizar un framework y simula una pagina de viajes en taxis.
 
-Se realizo la copía del LMS y lapagina quedo para uso en computadora.
-
-En este reto no se me dificulto tanto hacer la página, ya que al utilizar un framework  me ayudo más a la distribución de los elementos de la página.
-
- # 1.-Vista en computadora.
-
-![imagen de la pagina](assets/images/imagen-completa.png)
+---
 
 
- # 2.-Vista en movil.
+- Se creo una página web usando el framework Bootstrap.
 
-![imagen de la pagina en movil](assets/images/vista-movil.png)
+![imagen de la pagina](assets/images/vista-lab.png)
+
+- Creado para Laboratoria.
