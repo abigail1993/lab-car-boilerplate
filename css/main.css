@@ -1,124 +1,425 @@
-.imagen{
-  background-image: url(../assets/images/taxi.jpg);
-  background-position: bottom;
-  background-size: cover;
-  height: 120vh;
+:root {
+  --main-color: #f7b617;
+  --dark-grey: #1b1b1b;
+  --footer-grey: #2b2b2b;
 }
 
-.amarillo {
-  background-color: #F7B617;
-  color: white;
-  margin: 200px 0px;
+body {
+  font-family: 'Lato', sans-serif;
 }
 
-.linea {
-  width: 130px;
+figure img {
+  width: 100%;
+}
+
+p {
+  font-size: 1.25em;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background-color: #fff;
+}
+
+/* Rewrite styles */
+.navbar {
+  background-color: #fff;
+  margin: 0;
+}
+
+.navbar-brand {
+  width: 210px;
+  height: auto;
+  text-align: center;
+  padding: 40px;
+}
+
+.navbar-brand img {
+  width: 100%;
+}
+
+.navbar-default .navbar-nav li a {
+  color: var(--dark-grey);
+  font-size: 1.15em;
+  transition: color .25s;
+}
+
+.navbar-default .navbar-nav li a:hover {
+  color: var(--main-color);
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  margin: 0;
+}
+
+.btn {
+  display: block;
+  border: none;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  padding: 10px 20px;
+  font-size: 1.25em;
+  transition: .25s;
+  white-space: pre-wrap;
+}
+
+.btn-default {
+  color: var(--dark-grey);
+}
+
+.btn-secondary {
+  background-color: var(--main-color);
+  color: #fff;
+}
+
+.btn-dark {
+  background-color: var(--dark-grey);
+  color: #fff;
+}
+
+.btn-dark:hover {
+  background-color: #434343;
+  color: #fff;
+}
+
+.btn-dark:focus {
+  color: #fff;
+}
+
+.form-horizontal .form-group {
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 30px;
+}
+
+.form-control {
+  height: auto;
+}
+
+.list-group {
+  margin-bottom: 0;
+}
+
+.list-group-item {
+  background-color: transparent;
+  border: none;
+}
+
+.modal-grey {
+  background-color: #cccccc;
+}
+
+.modal-content {
+  border-radius: 0;
+}
+
+.modal-header {
+  text-align: center;
+}
+
+.modal-header img {
+  width: 20%;
+}
+
+.dropdown-menu li {
+  padding-left: 15px;
+}
+
+#myModalPrice {
+  color: #000;
+}
+
+/* Helpers */
+.section-call {
+  padding: 40px;
+  margin-top: 150px;
+  margin-bottom: 150px;
+  background-color: var(--main-color);
+  color: #fff;
+}
+
+.border-white {
+  border: 1px solid #fff;
+  padding: 10px;
+}
+
+.imagen-map {
+  width: 100%;
+  height: 100%;
+
+}
+
+.text-white {
+  color: #fff;
+}
+
+.padding-40 {
+  padding: 40px 15px;
+}
+
+.inline-logo {
   display: inline-block;
+  width: 70px;
+  margin: 0 15px;
 }
 
-.center {
-  text-align: center;
+.logo-footer {
+  display: inline-block;
+  width: 130px;
 }
 
-.contenedor3 {
-  background-color: #F7B617;
-  background-size: cover;
-  height: 100vh;
+.m-0 {
+  margin: 0;
 }
 
-.border {
-  border: .3vh solid white;
-  margin: 10vh 0vh;
+.mt-10 {
+  margin-top: 10px;
 }
 
-.app {
-  color: white;
-  text-align:left ;
-  margin: 15vh 0vh;
+.mb-10 {
+  margin-bottom: 10px;
 }
 
-.iphone {
-  margin: 10vh 0vh;
+.mt-15 {
+  margin-top: 15px;
 }
 
-.contenedor4 {
-  background-image: url(../assets/images/conduce.jpg);
+.mb-15 {
+  margin-bottom: 15px;
+}
+
+.mt-25 {
+  margin-top: 25px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.mt-40 {
+  margin-top: 40px;
+}
+
+.mb-40 {
+  margin-bottom: 40px;
+}
+
+.mt-60 {
+  margin-top: 60px;
+}
+
+.mb-200 {
+  margin-bottom: 200px;
+}
+
+.pad-40 {
+  padding: 40px;
+}
+
+.pad-40-v {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.nopadding-left {
+  padding-left: 0;
+}
+
+.relative {
+  position: relative;
+}
+
+/* Site styles */
+section:nth-child(2n) {
+  background-color: var(--main-color);
+}
+
+#section-1 {
+  background-image: url('../assets/images/taxi.jpg');
   background-position: bottom;
   background-size: cover;
-  height: 70vh;
+  background-repeat: no-repeat;
 }
 
-.texto{
-  background-color:rgba(0,0,0,0.5);
-  height: 70vh;
-  padding: 15vh 0vh;
+.separate-buttons::before {
+  content: "O bien";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: -40px;
+  background-color: var(--main-color);
+  padding: 15px 30px;
+
 }
 
-.white2{
-  color: white;
-  margin: 10px;
+#section-3 {
+  background-image: url('../assets/images/conduce.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-.amarillo2 {
-  background-color: #F7B617;
-  color: white;
+#section-3 article {
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 100%;
 }
 
-.tarifa {
-  padding: 90px;
+#section-3 article button {
+  margin-bottom: 160px;
 }
 
-.seguido {
-  margin: 20px 0px;
+#section-4 .form-group input {
+  background-color: transparent;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  padding: 12px;
+  color: #fff;
+  margin-left: 20px;
+  width: 80%;
 }
 
-.seguido img {
+#section-4 .form-group input::placeholder {
+  color: #fff;
+}
+
+#section-4 .form-group:last-child {
+  margin-bottom: 0;
+}
+
+footer {
+  background-color: var(--dark-grey);
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+footer a {
+  color: #fff;
+  transition: color .25s;
+}
+
+footer a:hover {
+  color: var(--main-color);
+  text-decoration: none;
+}
+
+.nav-container{
+  padding: 0;
+}
+
+.nav-social {
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+.nav-social li {
   float: left;
+  margin-right: 15px;
 }
 
-.maps {
-  border: 1px solid white;
-  height:50vh;
-  width: 50vh;
-  margin:10vh auto;
-  padding: 1vh;
+.nav-social li:last-child {
+  margin-right: 0;
 }
 
-.footer {
-  background-color: #2B2B2B;
-  color: white;
-  padding: 50px 0px;
+.nav-social i {
+  font-size: 1em;
 }
 
-.border2 {
-  border-bottom: 1px solid white;
+.nav-download img {
+  width: 100%;
+  max-width: 190px;
 }
 
-.border3 {
-  border-top: 1px solid white;
+.no-header {
+  border-bottom: 0;
+  padding-bottom: 0;
 }
 
-.list {
-  padding: 50px;
+.left-input {
+  padding-left: 0;
+  padding-right: 7.5px;
 }
 
-#icons {
-  text-align: center;
-  margin-top: 260px;
+.right-input {
+  padding-left: 7.5px;
+  padding-right: 0;
 }
 
-.store {
-  margin-top: 100px;
+.form-compact .form-group {
+  margin-bottom: 15px;
 }
 
-.appstore {
-  margin-top: 50px;
+.modal-md {
+  width: 95%;
 }
 
-.footer2 {
-  margin-bottom: 20px;
+.map-container {
+  height: 60vh;
+  margin: 60px 0;
 }
 
-.footer3 {
-  margin-top: 20px;
+#map {
+  height: 100%;
+  color: var(--dark-grey);
+}
+
+/*  */
+@media (min-width: 768px) {
+  .navbar-nav {
+    position: absolute;
+    top: 50%;
+    right: 8.333333%;
+    transform: translateY(-50%);
+  }
+
+  .nav li a {
+    padding: 10px 30px;
+  }
+
+  .modal-md {
+    width: 450px;
+  }
+}
+
+/*  */
+@media (min-width: 992px) {
+  .inline-logo {
+    width: 95px;
+    margin: 0 20px;
+  }
+
+  #section-2 {
+    padding-left: 0;
+  }
+
+  #section-2 article {
+    border-left: 0;
+    display: flex;
+    align-items: center;
+  }
+
+  #section-2 p {
+    font-size: 1.55em;
+  }
+
+  .map-container {
+    margin: 50px 0;
+  }
+
+  footer {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  .nav-container {
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+  }
+
+  .nav-social, .nav-download {
+    margin: 0;
+  }
 }

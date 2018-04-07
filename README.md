@@ -8,6 +8,7 @@ Lab<ar es un proyecto de maquetación en el cual aprendí a utilizar un framewor
 
 - Se creo una página web usando el framework Bootstrap.
 
-![imagen de la pagina](assets/images/vista-lab.png)
+![lab-vista](https://user-images.githubusercontent.com/32883910/38773843-c7318a8e-4014-11e8-9f15-b88ba665b92e.png)
+
 
 - Desarrollado para Laboratoria.
