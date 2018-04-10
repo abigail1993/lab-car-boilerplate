@@ -10,4 +10,4 @@ Lab<ar es un proyecto de maquetación en el cual aprendí a utilizar un framewor
 
 ![imagen de la pagina](assets/images/vista-lab.png)
 
-- Creado para Laboratoria.
+- Desarrollado para Laboratoria.
